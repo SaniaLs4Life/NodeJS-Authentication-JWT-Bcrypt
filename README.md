@@ -7,4 +7,6 @@
 
 ## Create a user 
 # POST => http://localhost:8000/users/register, data: fullName, email, password
+
+## Login with an existing user
 # POST => http://localhost:8000/users/authenticate, data: email, password
